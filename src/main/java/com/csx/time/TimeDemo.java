@@ -142,6 +142,7 @@ public class TimeDemo {
         Duration duration=Duration.between(now,nextDay);
         System.out.println(duration.get(ChronoUnit.SECONDS));
 
+
     }
 
     /**
@@ -157,4 +158,6 @@ public class TimeDemo {
         long between = ChronoUnit.SECONDS.between(now, midNight);
         System.out.println(between);
     }
+
+
 }
